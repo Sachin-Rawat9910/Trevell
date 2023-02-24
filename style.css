@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Satisfy', cursive; */
+transition: all 0.3s linear;
+}
+
+img{
+    width: 100% !important;
+}
+
+a{
+    display: block;
+}
+
+section{
+    padding: 100px 0;
+}
+
+p{
+    color: #989898;
+}
+
+i{
+    color: #52c9f1;
+}
+
+.btn{
+    background-color: #52c9f1;
+    color: #fff;
+    padding: 15px 40px;
+    transition: all 0.3s linear;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background-color: #061a3a;
+    color: #fff;
+}
+
+.container h2 > span{
+color: #52c9f1;
+  font-family: 'Satisfy', cursive;
+}
+
+.navbar-brand > h2 > span{
+    color: #52c9f1;
+}
+
+h2{
+    color: #061a3a;
+    font-size: 48px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+  
+}
+
+.navbar{
+    padding: 20px 0;
+    /* box-shadow: 0 1px 20px #d5d5d5; */
+}
+
+.navbar-nav .nav-item{
+    margin: 0 12px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #061a3a;
+    transition: all 0.3s linear;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #52c9f1;
+}
+
+.social-link a{
+    width: 55px;
+    height: 55px;
+    background-color: #d5d5d5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    transition: all 0.3s linear;
+    color: #061a3a;
+}
+
+.social-link a:hover{
+    box-shadow: 0 1px 20px #52c9f1;
+}
+
+
+@media (max-width:576px) {
+  .top-social-info .top-box p{
+    font-size: 12px !important;
+  }
+}
+
+
+#hero{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/assest/banner-1_jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 160px 0;
+    position: relative;
+    width: 100%;
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+ 
+}
+
+
+
+.hero-wrapper h1{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 70px !important;
+line-height: 90px;
+}
+
+@media (max-width:768px) {
+  .hero-wrapper h1{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 50px !important;
+line-height: 60px;
+}
+
+.hero-wrapper p{
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px !important;
+line-height: 28px;
+}
+
+
+.hero-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+}
+
+@media (max-width:576px) {
+  .hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  
+  }
+
+  
+}
+
+.hero-wrapper p{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px !important;
+line-height: 28px;
+}
+
+.shap-img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* .form {
+    margin-top: 2rem;
+    background-color: #ffffff74;
+    padding: 20px 25px;
+} */
+
+.form input{
+    padding: 20px 120px 20px 60px;
+    border-radius: 50px;
+}
+
+
+
+.visual-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgb(214, 214, 214);
+    padding: 10px;
+}
+
+.visual-img img{
+    border-radius: 50%;
+}
+
+.card-text{
+    font-size: 18px;
+}
+
+.slick-next::before, .slick-prev::before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #52c9f1 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+
+  #about{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/assest/about-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+    background-attachment: fixed;
+  }
+
+
+  .about-box h2{
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  .about-info{
+    padding: 57px 54px 10px 55px;
+  }
+
+  .about-box p{
+    color: #d9d9d9;
+    font-size: 20px;
+    line-height: 38px !important;
+    margin: 30px 0 !important;
+  }
+
+  @media (max-width:1200px) {
+   p{
+      color: #d9d9d9;
+      font-size: 15px !important;
+      line-height:18px !important;
+      margin: 30px 0 !important;
+    }
+
+    .about-box p{
+      color: #d9d9d9;
+      font-size: 10px;
+      line-height: 24px !important;
+      margin: 20px 0 !important;
+    }
+    .indian-destination-img{
+      width: 280px;
+      height: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+      }
+      .about-info{
+        padding: 57px 10px 10px 10px !important;
+      }
+
+      .about-box h2{
+        color: #fff;
+        margin-bottom: 10px;
+        font-size: 26px !important;
+      }
+    
+  }
+
+
+  @media (max-width:576px) {
+    .about-info{
+      text-align: center;
+    }
+
+    .about-wrapper{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .indian-destination-img{
+  width: 300px;
+  height: 420px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .hidden-info{
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    background-color: #131820;
+    z-index: 1111;
+  }
+
+  .indian-destination-img img{
+    width: 100%;
+  }
+
+
+
+
+
+  #international{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/assest/intenational-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+    background-attachment: fixed;
+  }
+
+  .priv_arrow{
+    background-color: transparent;
+    color: #52c9f1;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute
+    ;
+    left: -45px;
+    top: 40%;
+    display: inline-block;
+  }
+
+  .next_arrow{
+    background-color: transparent;
+    color: #52c9f1;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute
+    ;
+    right: -45px;
+    top: 40%;
+  }
+
+  .priv_arrow i,.next_arrow i{
+      font-size: 40px;
+  }
+
+
+  .international .priv_arrow{
+    background-color: transparent;
+    color: #52c9f1;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute
+    ;
+    left: 74%;
+    top: -17%;
+    display: inline-block;
+  }
+
+
+  .international .next_arrow{
+    background-color: transparent;
+    color: #52c9f1;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute
+    ;
+    left: 82%;
+    top: -17%;
+    display: inline-block;
+  }
+
+  .international .card-body >h5{
+    color: #fff;
+  }
+
+  .international-destination-img{
+    width: 300px;
+    /* height: 420px; */
+      border-radius: 15px;
+      overflow: hidden;
+      margin: 0 auto;
+      position: relative;
+    }
+
+
+
+
+
+    #dont-miss{
+      width: 100%;
+     }
+
+
+    .dont-miss-1{
+        background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url(/assest/Luxury\ Travel.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 35px 50px;
+        border-radius: 15px;
+        width:45%;
+    }
+@media (max-width:992px) {
+  .dont-miss{
+    width: 100% !important;
+  }
+}
+
+@media (max-width:576px) {
+ #dont-miss{
+  padding: 30px 20px !important;
+ }
+ .dont-miss-2{
+  margin-top: 10px;
+ }
+}
+    .dont-miss-1 p{
+        color: #fff;
+        font-size: 20px;
+    }
+    .dont-miss p{
+    
+        font-size: 20px;
+    }
+
+    .dont-miss-2{
+        width:45%;
+        background-color: rgb(234, 234, 234);
+        padding: 35px 50px;
+        border-radius: 15px;
+    }
+
+    .dont-miss h1{
+        font-size: 32px;
+    }
+
+    .dont-miss .form-group{
+        background-color: #fff;
+        width: 100%;
+        padding: 15px 30px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+
+    .dont-miss .form-group a{
+ text-decoration: none;
+ position: absolute;
+ right:0;
+ background-color: #52c9f1;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ padding: 0 20px;
+ top: 0;
+ color: #fff;
+    }
+
+    .dont-miss .form-group input{
+        outline: none;
+        border: none;
+    }
+
+    .best-travel-img{
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .best-travel-card .card-body a{
+        text-decoration: none;
+        color: #52c9f1;
+    }
+
+
+    #themes{
+        background-color: #131820;
+        padding: 80px 0;
+    }
+
+    .theme-big .img-body{
+      width: 520px;
+      height: 500px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .theme-big .img-body img{
+        width: 100%;
+        height: 100%;
+      }
+
+      .small-img-box{
+        width: 300px;
+        height: 250px;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+
+      .small-img-box img{
+        width: 100%;
+        height: 100%;
+        margin: 30px;
+      }
+
+
+      
